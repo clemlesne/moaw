@@ -257,7 +257,7 @@ docker run -it -p 9000:80 -e "GREETEE=Docker" -e "VERSION=1.0.0" -e "ENVIRONMENT
 
 <div class="tip" data-title="resources">
 
-> - <https://docs.docker.com/engine/reference/run/>
+> <https://docs.docker.com/engine/reference/run/>
 
 </div>
 
@@ -558,7 +558,7 @@ Make a request to the newly deployed web app and ensure it returns `Hello AKS`.
 
 <div class="tip" data-title="tip">
 
-> * Use port forwarding with `kubectl` to directly access pods in the AKS cluster
+> Use port forwarding with `kubectl` to directly access pods in the AKS cluster
 
 </div>
 
@@ -660,7 +660,7 @@ Create and deploy an [Ingress manifest](https://kubernetes.io/docs/concepts/serv
 
 <div class="tip" data-title="tip">
 
-> * You can use the DNS zone created by enabling [http_application_routing add-on](https://learn.microsoft.com/en-us/azure/aks/http-application-routing) when you created the cluster. You can use [az aks show](https://learn.microsoft.com/en-us/azure/aks/http-application-routing#deploy-http-routing-cli) to get the host name.
+> You can use the DNS zone created by enabling [http_application_routing add-on](https://learn.microsoft.com/en-us/azure/aks/http-application-routing) when you created the cluster. You can use [az aks show](https://learn.microsoft.com/en-us/azure/aks/http-application-routing#deploy-http-routing-cli) to get the host name.
 
 </div>
 
@@ -776,7 +776,7 @@ Check the following metrics:
 
 <div class="tip" data-title="resources">
 
-> - <https://learn.microsoft.com/en-us/azure/aks/monitor-aks/>
+> <https://learn.microsoft.com/en-us/azure/aks/monitor-aks/>
 
 </div>
 
@@ -800,7 +800,7 @@ Enable the Horizontal Pod Scaler to automatically scale the number of replicas o
 
 <div class="tip" data-title="tip">
 
-> * Make sure you have defined [resource requests and limits](https://learn.microsoft.com/en-us/azure/aks/developer-best-practices-resource-management#define-pod-resource-requests-and-limits) for your pod.
+> Make sure you have defined [resource requests and limits](https://learn.microsoft.com/en-us/azure/aks/developer-best-practices-resource-management#define-pod-resource-requests-and-limits) for your pod.
 
 </div>
 
@@ -850,9 +850,9 @@ spec:
 
 ### Test the Horizontal Pod Autoscaler
 
-<div class="tip" data-title="tip">
+<div class="info" data-title="go ahead">
 
-> * You can use [Azure Load Testing](https://learn.microsoft.com/en-us/azure/load-testing/quickstart-create-and-run-load-test) to simulate load spikes.
+> You can use [Azure Load Testing](https://learn.microsoft.com/en-us/azure/load-testing/quickstart-create-and-run-load-test) to simulate load spikes.
 
 </div>
 
